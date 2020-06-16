@@ -18,4 +18,4 @@ jobs:
     - name: Setup Surge
       run: npm install --global surge
     - name: execute Deployment with Surge
-      run: surge ./ expense-tracker-app-skyscanner4u.surge.sh --token ${{secrets.expense-tracker-app_surge_token}}
+      run: surge ./ expense-tracker-app-skyscanner4u.surge.sh --token ${{secrets.expense_tracker_app_surge_token}}
